@@ -38,5 +38,5 @@ def NQueen(n):
     return output
 
 if __name__ == "__main__":
-    n = 8
-    print(len(NQueen(n)))
+    n = 4
+    print(NQueen(n))
