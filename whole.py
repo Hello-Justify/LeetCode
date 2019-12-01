@@ -4,12 +4,7 @@
 @date     : 2019-11-25 21:55
 # 回溯算法
 '''
-'''
-93.复原IP地址
-@author   : hca
-@date     : 2019-11-25 21:55
-# 回溯算法
-'''
+
 def permute(nums):
     def update_output(seg):
         segments = []
