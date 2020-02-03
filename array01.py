@@ -10,7 +10,7 @@
 
 def removeDuplicates(nums) -> int:
     n = 0
-    for index, num in enumerate(nums):
+    for num in nums:
     	if num != nums[n]:
     		n += 1
     		nums[n] = num
